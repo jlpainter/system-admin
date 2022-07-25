@@ -1,7 +1,7 @@
 # Web Server Configuration Notes
 
 ## TLJH + RStudio Server behind Apache httpd2 proxy
-The following are my configuration parameters for enabling an Apache httpd2 server to act as a proxy between side by side installs of the  [TLJH]([https://link-url-here.org](https://tljh.jupyter.org/en/latest/))  version of JupyterHub and the RStudio Server on an Ubuntu Linux (20.0 tested) server.
+The following are my configuration parameters for enabling an Apache httpd2 server to act as a proxy between side by side installs of the [TLJH](https://tljh.jupyter.org/en/latest/ "The Littlest JupyterHub Server") version of JupyterHub and the RStudio Server on an Ubuntu Linux (20.0 tested) server.
 
 This does NOT assume SSL is installed, but could be easily modified for an SSL setup as well.
 
@@ -12,7 +12,7 @@ This does NOT assume SSL is installed, but could be easily modified for an SSL s
   $ sudo a2enmod proxy_http
   $ sudo a2enmod rewrite
   $ sudo a2enmod proxy_wstunnel
-  $ sudo a2enmod headers```
+  $ sudo a2enmod headers
 
 ````
 
