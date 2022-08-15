@@ -83,9 +83,10 @@ For TLJH, you must use the config utility to set some parameters
 Add the http port
 
 ```
-  $ sudo tljh-config set http.port 8001
-  $ sudo tljh-config set https.port 8443
-  $ sudo tljh-config set bind_url 'http://127.0.0.1/jhub/'
+  sudo tljh-config set http.port 8001
+  sudo tljh-config set https.port 8443
+  sudo tljh-config set base_url '/jhub/'
+  sudo tljh-config set bind_url 'http://127.0.0.1/jhub/'
 
 ````
 
